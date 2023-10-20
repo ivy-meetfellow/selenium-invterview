@@ -1,0 +1,17 @@
+{
+  "setupTasks": [],
+
+  "tasks": {
+    "setup": {
+      "name": "setup",
+      "command": "bash bin/setup.sh",
+      "runAtStart": true
+    },
+    "bash": {
+      "name": "bash",
+      "command": "bash",
+      "runAtStart": true
+    }
+  }
+}
+
